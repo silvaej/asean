@@ -892,7 +892,11 @@ body {
     background-image: url("../pages/PH/images/tourist-banner.jpg");
 }
 
+<<<<<<< HEAD
 /*For Malaysia*/
+=======
+    /*For Malaysia*/
+>>>>>>> 63c1d45ef5719817a98af997146a69c53b5ba465
 .history-banner-malaysia {
     background-image: url("../pages/MY/images/history-icon.jpg");
 }
@@ -954,4 +958,37 @@ body {
     text-align: center;
     font-size: 10px;
     font-style: italic;
+}
+
+/*For Thailand*/
+.history-banner-thailand {
+    background-image: url("../pages/TH/images/thai-history-icon.jpg");
+}
+
+.history-banner-thailand:hover {
+    background-image: url("../pages/TH/images/history-banner.jpg");
+}
+
+.culture-banner-thailand {
+    background-image: url("../pages/TH/images/thai-culture-icon.jpg");
+}
+
+.culture-banner-thailand:hover {
+    background-image: url("../pages/TH/images/culture-banner.jpg");
+}
+
+.cuisine-banner-thailand {
+    background-image: url("../pages/TH/images/thai-cuisine-icon.jpg");
+}
+
+.cuisine-banner-thailand:hover {
+    background-image: url("../pages/TH/images/cuisine-banner.jpg");
+}
+
+.tourist-banner-thailand {
+    background-image: url("../pages/TH/images/thai-touristspot-icon.jpg");
+}
+
+.tourist-banner-thailand:hover {
+    background-image: url("../pages/TH/images/tourist-banner.jpg");
 }
