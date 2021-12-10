@@ -892,7 +892,7 @@ body {
     background-image: url("../pages/PH/images/tourist-banner.jpg");
 }
 
-                    /*For Malaysia*/
+/*For Malaysia*/
 .history-banner-malaysia {
     background-image: url("../pages/MY/images/history-icon.jpg");
 }
@@ -925,3 +925,33 @@ body {
     background-image: url("../pages/MY/images/tourist-banner.jpg");
 }
 
+.blog-title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.blog-sub-title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+.blog-pic {
+    width: 500px;
+    height: 300px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.blog-content {
+    font-family: Arial;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.caption {
+    font-family: Arial;
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+}
