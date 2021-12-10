@@ -1,0 +1,893 @@
+body {
+    margin: 0px;
+    background-color: rgb(40, 40, 40);
+    background-image: url(../pages/ID/bg2.jpg);
+    background-attachment: fixed;
+}
+
+.bg-container {
+    z-index: -1;
+    display: inline-block;
+    width: 100%;
+    height: 520px;
+    top: 30px;
+    background-size: 100% auto;
+}
+
+@keyframes bg-image-id {
+    0% {
+        background-image: url(../pages/ID/indonesia.jpg);
+    }
+
+    12% {
+        background-image: url(../pages/ID/indonesia2.jpg);
+    }
+    25% {
+        background-image: url(../pages/ID/indonesia3.jpg);
+    }
+    37% {
+        background-image: url(../pages/ID/indonesia4.jpg);
+    }
+
+    50% {
+        background-image: url(../pages/ID/indonesia5.jpg);
+    }
+
+    62% {
+        background-image: url(../pages/ID/indonesia6.jpg);
+    }
+
+    74% {
+        background-image: url(../pages/ID/indonesia7.jpg);
+    }
+
+    87% {
+        background-image: url(../pages/ID/indonesia8.jpg);
+    }
+
+    98% {
+        background-image: url(../pages/ID/indonesia.jpg);
+    }
+}
+
+.greeting {
+    width: 100%;
+    padding-top: 20px;
+    height: 110px;
+    text-align: center;
+    font-family: Times New Roman;
+    position: sticky;
+    background-color: rgb(40, 40, 40);
+    top: 0;
+    z-index: 99;
+}
+
+#suf {
+    color: rgb(87, 87, 87);
+    font-family: Arial;
+}
+
+#main {
+    color: white;
+    font-family: Cambria;
+    font-size: 40px;
+}
+
+#sub1 {
+    color: rgb(246, 255, 79);
+    font-family: Arial;
+    display: inline-block;
+}
+
+#sub2 {
+    color: rgb(149, 150, 107);
+    font-family: Arial;
+    display: inline-block;
+}
+
+.menu {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.r1c1 {
+    background-image: url("../pages/ID/touristspot/bali1.jpg");
+}
+
+.r1c2 {
+    background-image: url("../pages/ID/TS.jpg");
+}
+
+.r1c3 {
+    background-image: url("../pages/ID/touristspot/buru1.jpg");
+}
+
+.r1c4 {
+    background-image: url("../pages/ID/touristspot/kelimutulake1.jpg");
+}
+
+.r1c5 {
+    background-image: url("../pages/ID/touristspot/komodo2.jpg");
+}
+
+.r2c1 {
+    background-image: url("../pages/ID/touristspot/mi1.jpg");
+}
+
+.r2c2 {
+    background-image: url("../pages/ID/touristspot/ayam_bakar1.jpg");
+}
+
+.r2c3 {
+    background-image: url("../pages/ID/cuisine.jpg");
+}
+
+.r2c4 {
+    background-image: url("../pages/ID/touristspot/sate_ayam1.jpg");
+}
+
+.r2c5 {
+    background-image: url("../pages/ID/touristspot/bebek1.jpg");
+}
+
+.r3c1 {
+    background-image: url("../pages/ID/touristspot/family1.jpg");
+}
+
+.r3c2 {
+    background-image: url("../pages/ID/touristspot/religion2.jpg");
+}
+
+.r3c3 {
+    background-image: url("../pages/ID/touristspot/death3.jpg");
+}
+
+.r3c4 {
+    background-image: url("../pages/ID/culture.jpg");
+}
+
+.r3c5 {
+    background-image: url("../pages/ID/touristspot/festival5.jpg");
+}
+
+.content {
+    margin: auto;
+    width: 1020px;
+    height: 2000px;
+    background-color: rgb(46, 46, 46);
+}
+
+#content-pic-1 {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+
+#content-pic-2 {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+
+.title {
+    text-align: center;
+    font-family: Times New Roman;
+    color: yellow;
+    font-size: 50px;
+}
+
+.testimonials {
+    text-align: center;
+    width: 600px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: arial;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px rgb(10, 10, 10);
+}
+
+.p1 {
+    background-image: url("../pages/ID/people/cielos.jpg");
+}
+
+.p2 {
+    background-image: url("../pages/ID/people/aubrey.jpg");
+}
+
+.p3 {
+    background-image: url("../pages/ID/people/lennon.jpg");
+}
+
+.p4 {
+    background-image: url("../pages/ID/people/antonio.jpg");
+}
+
+.p5 {
+    background-image: url("../pages/ID/people/julienne.jpg");
+}
+
+.footer {
+    color: rgb(55, 55, 55);
+    text-align: center;
+    font-size: 40px;
+}
+
+.statement {
+    width: 400px;
+    line-height: 1.6;
+}
+
+.statement-name {
+    color: yellow;
+    font-style: italic;
+    text-align: right;
+}
+
+.invisible {
+    margin: auto;
+    width: 1220px;
+    height: 2000px;
+}
+
+.content-table {
+    width: 900px;
+}
+
+.content_2 {
+    float: right;
+    width: 900px;
+    height: 2000px;
+}
+
+/* PICTURES */
+.main-pic {
+    padding: 5px;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.sub-pic {
+    padding: 10px;
+    width: 195px;
+    height: 195px;
+    background-size: cover;
+    background-position: center;
+}
+
+.name {
+    text-align: right;
+}
+
+.content-desc {
+    width: 900pxpx;
+    font-family: Arial;
+    line-height: 1.7;
+    color: white;
+}
+
+.the_names {
+    color: yellow;
+    font-family: Times New Roman;
+    font-size: 30px;
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    background-color: rgb(20, 20, 20);
+}
+.numbah {
+    color: rgb(90, 90, 90);
+    font-size: 30px;
+    display: inline-block;
+    font-style: italic;
+}
+
+.quote {
+    font-family: Arial;
+    font-size: 15px;
+    color: white;
+    font-style: italic;
+}
+
+.name {
+    float: left;
+    width: 300px;
+    height: 500px;
+}
+
+.tourist {
+    text-align: center;
+    height: 200px;
+    padding: 2px;
+}
+
+.cuisine {
+    text-align: center;
+    height: 200px;
+    padding: 2px;
+}
+
+.culture {
+    text-align: center;
+    height: 250px;
+    padding: 2px;
+}
+
+.photocontainer {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: rgb(20, 20, 20);
+}
+
+.wiki1 {
+    width: 700px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial;
+    color: white;
+    text-align: justify;
+}
+
+.tspot {
+    width: 903px;
+    height: 600px;
+}
+
+.aa {
+    animation-name: aaa;
+    animation-duration: 2s;
+    display: block;
+    color: yellow;
+    position: absolute;
+    left: 1000;
+    top: 535px;
+    font-size: 20px;
+}
+@keyframes aaa {
+    0% {
+        top: 535px;
+        left: 3000px;
+    }
+    70% {
+        left: 1000px;
+    }
+    100% {
+        left: 1000px;
+    }
+}
+
+.bb {
+    animation-name: bbb;
+    animation-duration: 2s;
+    display: block;
+    color: white;
+    position: absolute;
+    left: 1000;
+    top: 550px;
+    font-family: Arial;
+    font-size: 50px;
+    text-shadow: 3px 3px 3px black;
+}
+@keyframes bbb {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.pic1 {
+    animation-name: a;
+    animation-duration: 2s;
+    background-size: cover;
+    background-position: 700px 0px;
+    display: inline-block;
+    width: 125px;
+    height: 100%;
+    position: relative;
+}
+
+@keyframes a {
+    0% {
+        top: -1200px;
+    }
+    70% {
+        top: 0px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+.pic2 {
+    animation-name: b;
+    animation-duration: 2.2s;
+    background-size: cover;
+    background-position: 650px 0px;
+    display: inline-block;
+    width: 125px;
+    height: 100%;
+    position: relative;
+}
+@keyframes b {
+    0% {
+        top: -1200px;
+    }
+    70% {
+        top: 0px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+.pic3 {
+    animation-name: c;
+    animation-duration: 2.6s;
+    background-size: cover;
+    background-position: 650px 0px;
+    display: inline-block;
+    width: 125px;
+    height: 100%;
+    position: relative;
+}
+@keyframes c {
+    0% {
+        top: -1200px;
+    }
+    70% {
+        top: 0px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+.pic4 {
+    animation-name: d;
+    animation-duration: 2.8s;
+    background-size: cover;
+    background-position: 650px 0px;
+    display: inline-block;
+    width: 125px;
+    height: 100%;
+    position: relative;
+}
+@keyframes d {
+    0% {
+        top: -1200px;
+    }
+    70% {
+        top: 0px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+.pic5 {
+    animation-name: e;
+    animation-duration: 3s;
+    background-size: cover;
+    background-position: 600px 0px;
+    display: inline-block;
+    width: 125px;
+    height: 100%;
+    position: relative;
+}
+
+@keyframes e {
+    0% {
+        top: -1200px;
+    }
+    70% {
+        top: 0px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+.pic6 {
+    animation-name: f;
+    animation-duration: 3.2s;
+    background-size: cover;
+    background-position: 650px 0px;
+    display: inline-block;
+    width: 125px;
+    height: 100%;
+    position: relative;
+}
+@keyframes f {
+    0% {
+        top: -1200px;
+    }
+    70% {
+        top: 0px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+.pic7 {
+    animation-name: g;
+    animation-duration: 3.4s;
+    background-size: cover;
+    background-position: 600px 0px;
+    display: inline-block;
+    width: 125px;
+    height: 100%;
+    position: relative;
+}
+
+@keyframes g {
+    0% {
+        top: -1200px;
+    }
+    70% {
+        top: 0px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+.synop {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    left: 1000;
+    top: 30px;
+    color: white;
+    font-family: Arial;
+}
+
+.cpic1 {
+    animation-name: aq;
+    animation-duration: 2s;
+}
+@keyframes aq {
+    0% {
+        left: -1200px;
+    }
+    70% {
+        left: 0px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+.cpic2 {
+    animation-name: bq;
+    animation-duration: 2.2s;
+}
+@keyframes bq {
+    0% {
+        left: -1200px;
+    }
+    70% {
+        left: 0px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+.cpic3 {
+    animation-name: cq;
+    animation-duration: 2.6s;
+}
+@keyframes cq {
+    0% {
+        left: -1200px;
+    }
+    70% {
+        left: 0px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+.cpic4 {
+    animation-name: dq;
+    animation-duration: 2.8s;
+}
+@keyframes dq {
+    0% {
+        left: -1200px;
+    }
+    70% {
+        left: 0px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+.cpic5 {
+    animation-name: eq;
+    animation-duration: 3s;
+}
+@keyframes eq {
+    0% {
+        left: -1200px;
+    }
+    70% {
+        left: 0px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+.cpic6 {
+    animation-name: fq;
+    animation-duration: 3.2s;
+}
+@keyframes fq {
+    0% {
+        left: -1200px;
+    }
+    70% {
+        left: 0px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+.cpic7 {
+    animation-name: gq;
+    animation-duration: 3.4s;
+}
+@keyframes gq {
+    0% {
+        left: -1200px;
+    }
+    70% {
+        left: 0px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+.restaurants {
+    position: relative;
+    top: 3100px;
+    margin: auto;
+    width: 1000px;
+    height: 900px;
+    background-color: rgba(60, 60, 60, 0.3);
+    padding: 20px;
+}
+
+.resto1 {
+    box-shadow: 5px 10px 8px black;
+    border-radius: 30px;
+    width: 270px;
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+    border: none;
+    background-image: url(../pages/ID/touristspot/warung1.jpg);
+    cursor: pointer;
+    display: inline;
+}
+.resto2 {
+    box-shadow: 5px 10px 8px black;
+    border-radius: 30px;
+    width: 270px;
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s;
+    border: none;
+    background-image: url(../pages/ID/touristspot/garudo1.jpg);
+    cursor: pointer;
+    display: inline;
+}
+.resto3 {
+    box-shadow: 5px 10px 8px black;
+    border-radius: 30px;
+    width: 270px;
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s;
+    border: none;
+    background-image: url(../pages/ID/touristspot/redginger1.jpg);
+    cursor: pointer;
+    display: inline;
+}
+
+.resto1:hover {
+    background-image: url(../pages/ID/touristspot/warung2.jpg);
+    background-position: center;
+}
+
+.resto2:hover {
+    background-image: url(../pages/ID/touristspot/garudo2.jpg);
+    background-position: center;
+}
+
+.resto3:hover {
+    background-image: url(../pages/ID/touristspot/redginger2.jpeg);
+    background-position: center;
+}
+
+.resto4 {
+    box-shadow: 5px 10px 8px black;
+    border-radius: 30px;
+    width: 270px;
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+    border: none;
+    background-image: url(../pages/ID/touristspot/bakmi.jpg);
+    cursor: pointer;
+    display: inline;
+}
+.resto5 {
+    box-shadow: 5px 10px 8px black;
+    border-radius: 30px;
+    width: 270px;
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s;
+    border: none;
+    background-image: url(../pages/ID/touristspot/indo1.jpg);
+    cursor: pointer;
+    display: inline;
+}
+.resto6 {
+    box-shadow: 5px 10px 8px black;
+    border-radius: 30px;
+    width: 270px;
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s;
+    border: none;
+    background-image: url(../pages/ID/touristspot/mar1.jpg);
+    cursor: pointer;
+    display: inline;
+}
+
+.resto4:hover {
+    background-image: url(../pages/ID/touristspot/bakmi2.jpg);
+    background-position: center;
+}
+
+.resto5:hover {
+    background-image: url(../pages/ID/touristspot/indo2.jpg);
+    background-position: center;
+}
+
+.resto6:hover {
+    background-image: url(../pages/ID/touristspot/mar2.jpg);
+    background-position: center;
+}
+
+.intro_culture {
+    padding: 10px;
+    line-height: 2;
+    margin: auto;
+    font-family: Arial;
+    font-size: 18px;
+    color: white;
+    width: 500px;
+    height: 420px;
+}
+
+.main_culture {
+    padding: 40px;
+    line-height: 2;
+    margin: auto;
+    font-family: Arial;
+    font-size: 14px;
+    color: white;
+    width: 500px;
+    height: auto;
+    background-color: rgba(90, 90, 90);
+}
+
+.c_numbah {
+    display: inline;
+    color: rgba(20, 20, 20);
+    font-size: 20px;
+}
+
+.c_title {
+    display: inline;
+    color: white;
+    font-size: 20px;
+}
+
+.c_picture {
+    width: auto;
+    height: 300px;
+    background-size: cover;
+}
+
+.c_show {
+    width: 890px;
+    height: 600px;
+    background-color: rgb(100, 100, 100);
+}
+
+.selection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 30px 0;
+}
+
+.selection-tile-container {
+    height: 500px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+}
+
+.history-banner {
+    background-image: url("../pages/PH/images/history-icon.jpg");
+}
+
+.history-banner:hover {
+    background-image: url("../pages/PH/images/history-banner.jpg");
+}
+
+.culture-banner {
+    background-image: url("../pages/PH/images/culture-icon.jpg");
+}
+
+.culture-banner:hover {
+    background-image: url("../pages/PH/images/culture-banner.jpg");
+}
+
+.cuisine-banner {
+    background-image: url("../pages/PH/images/cuisine-icon.jpg");
+}
+
+.cuisine-banner:hover {
+    background-image: url("../pages/PH/images/cuisine-banner.jpg");
+}
+
+.tourist-banner {
+    background-image: url("../pages/PH/images/tourist-icon.jfif");
+}
+
+.tourist-banner:hover {
+    background-image: url("../pages/PH/images/tourist-banner.jpg");
+}
