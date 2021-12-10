@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Six+Caps&display=swap");
+
 body {
     margin: 0px;
     background-color: rgb(40, 40, 40);
@@ -55,7 +57,7 @@ body {
     padding-top: 20px;
     height: 110px;
     text-align: center;
-    font-family: Times New Roman;
+    font-family: "Six Caps", sans-serif;
     position: sticky;
     background-color: rgb(40, 40, 40);
     top: 0;
@@ -64,7 +66,7 @@ body {
 
 #suf {
     color: rgb(87, 87, 87);
-    font-family: Arial;
+    font-family: "Josefin Slab", serif;
 }
 
 #main {
@@ -75,13 +77,13 @@ body {
 
 #sub1 {
     color: rgb(246, 255, 79);
-    font-family: Arial;
+    font-family: "Josefin Slab", serif;
     display: inline-block;
 }
 
 #sub2 {
     color: rgb(149, 150, 107);
-    font-family: Arial;
+    font-family: "Josefin Slab", serif;
     display: inline-block;
 }
 
@@ -177,7 +179,7 @@ body {
 
 .title {
     text-align: center;
-    font-family: Times New Roman;
+    font-family: "Six Caps", sans-serif;
     color: yellow;
     font-size: 50px;
 }
@@ -189,7 +191,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    font-family: arial;
+    font-family: "Josefin Slab", serif;
 }
 
 .icon {
@@ -277,14 +279,14 @@ body {
 
 .content-desc {
     width: 900pxpx;
-    font-family: Arial;
+    font-family: "Josefin Slab", serif;
     line-height: 1.7;
     color: white;
 }
 
 .the_names {
     color: yellow;
-    font-family: Times New Roman;
+    font-family: "Six Caps", sans-serif;
     font-size: 30px;
     display: inline-block;
     width: 300px;
@@ -299,7 +301,7 @@ body {
 }
 
 .quote {
-    font-family: Arial;
+    font-family: "Josefin Slab", serif;
     font-size: 15px;
     color: white;
     font-style: italic;
@@ -341,7 +343,7 @@ body {
     height: 100px;
     margin-left: auto;
     margin-right: auto;
-    font-family: Arial;
+    font-family: "Josefin Slab", serif;
     color: white;
     text-align: justify;
 }
@@ -382,7 +384,7 @@ body {
     position: absolute;
     left: 1000;
     top: 550px;
-    font-family: Arial;
+    font-family: "Josefin Slab", serif;
     font-size: 50px;
     text-shadow: 3px 3px 3px black;
 }
@@ -562,7 +564,7 @@ body {
     left: 1000;
     top: 30px;
     color: white;
-    font-family: Arial;
+    font-family: "Josefin Slab", serif;
 }
 
 .cpic1 {
@@ -801,7 +803,7 @@ body {
     padding: 10px;
     line-height: 2;
     margin: auto;
-    font-family: Arial;
+    font-family: "Josefin Slab", serif;
     font-size: 18px;
     color: white;
     width: 500px;
@@ -812,7 +814,7 @@ body {
     padding: 40px;
     line-height: 2;
     margin: auto;
-    font-family: Arial;
+    font-family: "Josefin Slab", serif;
     font-size: 14px;
     color: white;
     width: 500px;
@@ -892,7 +894,7 @@ body {
     background-image: url("../pages/PH/images/tourist-banner.jpg");
 }
 
-                    /*For Malaysia*/
+/*For Malaysia*/
 .history-banner-malaysia {
     background-image: url("../pages/MY/images/history-icon.jpg");
 }
@@ -924,4 +926,3 @@ body {
 .tourist-banner-malaysia:hover {
     background-image: url("../pages/MY/images/tourist-banner.jpg");
 }
-
