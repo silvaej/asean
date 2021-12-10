@@ -891,3 +891,37 @@ body {
 .tourist-banner:hover {
     background-image: url("../pages/PH/images/tourist-banner.jpg");
 }
+
+                    /*For Malaysia*/
+.history-banner-malaysia {
+    background-image: url("../pages/MY/images/history-icon.jpg");
+}
+
+.history-banner-malaysia:hover {
+    background-image: url("../pages/MY/images/history-banner.jpg");
+}
+
+.culture-banner-malaysia {
+    background-image: url("../pages/MY/images/culture-icon.jpg");
+}
+
+.culture-banner-malaysia:hover {
+    background-image: url("../pages/MY/images/culture-banner.jpg");
+}
+
+.cuisine-banner-malaysia {
+    background-image: url("../pages/MY/images/malaysia-cuisine-icon.jpg");
+}
+
+.cuisine-banner-malaysia:hover {
+    background-image: url("../pages/MY/images/cuisine-banner.jpg");
+}
+
+.tourist-banner-malaysia {
+    background-image: url("../pages/MY/images/malaysia-touristspot-icon.jpg");
+}
+
+.tourist-banner-malaysia:hover {
+    background-image: url("../pages/MY/images/tourist-banner.jpg");
+}
+
