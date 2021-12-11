@@ -358,7 +358,7 @@ body {
     color: yellow;
     position: absolute;
     left: 1000;
-    top: 550px;
+    top: 590px;
     font-size: 20px;
 }
 @keyframes aaa {
@@ -381,7 +381,7 @@ body {
     color: white;
     position: absolute;
     left: 1000;
-    top: 570px;
+    top: 610px;
     font-family: Arial;
     font-size: 50px;
     text-shadow: 3px 3px 3px black;
