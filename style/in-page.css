@@ -230,11 +230,14 @@ body {
 .statement {
     width: 400px;
     line-height: 1.6;
+    padding-left: 20px;
+    text-align: justify;
+    font-style: italic;
 }
 
 .statement-name {
     color: yellow;
-    font-style: italic;
+    font-style: normal;
     text-align: right;
 }
 
