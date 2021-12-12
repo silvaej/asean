@@ -201,26 +201,6 @@ body {
     box-shadow: 5px 5px 5px rgb(10, 10, 10);
 }
 
-.p1 {
-    background-image: url("../pages/ID/people/cielos.jpg");
-}
-
-.p2 {
-    background-image: url("../pages/ID/people/aubrey.jpg");
-}
-
-.p3 {
-    background-image: url("../pages/ID/people/lennon.jpg");
-}
-
-.p4 {
-    background-image: url("../pages/ID/people/antonio.jpg");
-}
-
-.p5 {
-    background-image: url("../pages/ID/people/julienne.jpg");
-}
-
 .footer {
     color: rgb(55, 55, 55);
     text-align: center;
